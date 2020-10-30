@@ -1,11 +1,11 @@
-# Proyecto  de consultas
+ Proyecto  de consultas
 
 Consultaremos el Base de datos de bdgame con el *find()*
 
     * Consultas find()
    
 
-    ¡[Consulta 1]
+    -Consulta 1
 
     ***La consulta es de nombre.***
 
@@ -17,9 +17,9 @@ Consultaremos el Base de datos de bdgame con el *find()*
 "estreno" : 0.0008145164939590028, 
 "dificultad" : "*" }
 
-     ¡[Consulta 2]
+     -Consulta 2
      
-     ***La consulta por lista.***
+     ***La consulta es nombre y pero con pretty (Ordenado en lista).***
 
 > db.bdgame.find ({"nombre": "Age of Empires"}).pretty()
 {
@@ -35,9 +35,9 @@ Consultaremos el Base de datos de bdgame con el *find()*
         ],
         "estreno" : 0.001301952929394091,
         "dificultad" : "***"
-    ***La consulta es nombre y pero con pretty (Ordenado en lista).***
+   
 
-    ¡[Consulta 3]
+    -Consulta 3
 
     ***Hacemos dos consulta sobre producto en lista.***
     
@@ -56,7 +56,7 @@ Consultaremos el Base de datos de bdgame con el *find()*
         "estreno" : 0.001443504230960677,
         "dificultad" : "****"
 
-    ¡[Consulta 4]
+    -Consulta 4
 
     ***Es una multiconsulta de filtrado.***
     
@@ -93,14 +93,14 @@ Consultaremos el Base de datos de bdgame con el *find()*
         ],
         "dificultad" : "****"
 
-    ¡[Consulta 5]
+    -Consulta 5
 
     ***Consulta de conteo de datos.***
     
     > db.bdgame.count()                                                                
 13
 
-    ¡[Consulta 6]
+    -Consulta 6
 
     ***Consulta que devuelve todos los datos de dos producto del mismo tipo.***
     
