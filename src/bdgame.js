@@ -70,7 +70,24 @@ db.bdgame.insertMany([
             tipo: ["Accion", "Aventura"],
             estreno: 17/09/2013, 
             dificultad: "***",
-        }]);
+        },
+        {
+            nombre: "ZZY", 
+            recaudacion: ["500.000"],
+            compañia: "Epic game", 
+            tipo: ["Aventura","Accion"],
+            estreno:  21/11/1991, 
+            dificultad: "**",
+        },
+        {
+            nombre: "Red Dead Redemption 2", 
+            recaudacion: ["725.000.000"],
+            compañia: "Rockstar Games", 
+            tipo: ["Aventura","Accion"],
+            estreno:  26/11/2018, 
+            dificultad: "****",
+        }
+    ]);
 
 
 
